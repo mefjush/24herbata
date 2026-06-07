@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>24Herbata.pl – Sklep z herbatą i kawą | Dziękujemy za wspólne lata</title>
+  <meta name="description" content="24Herbata.pl – internetowy sklep z herbatą i kawą. Herbata czarna, zielona, biała, czerwona, rooibos, yerba mate, pu-erh, kawa aromatyzowana i akcesoria. Sklep zakończył działalność. Domena na sprzedaż.">
+  <meta name="keywords" content="herbata, herbata czarna, herbata zielona, herbata biała, herbata czerwona, kawa, kawa aromatyzowana, rooibos, yerba mate, pu-erh, lapacho, herbata z dodatkami, akcesoria do herbaty, sklep z herbatą, sklep z kawą, prezenty herbaciane, upominki">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://24herbata.pl/">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://24herbata.pl/">
+  <meta property="og:title" content="24Herbata.pl – Sklep z herbatą i kawą">
+  <meta property="og:description" content="Przez lata oferowaliśmy najlepsze gatunki herbaty i kawy. Herbata czarna, zielona, biała, rooibos, yerba mate, pu-erh oraz kawa aromatyzowana. Dziękujemy wszystkim klientom.">
+  <meta property="og:image" content="https://24herbata.pl/logo.png">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:site_name" content="24Herbata.pl">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "24Herbata.pl",
+    "url": "https://24herbata.pl/",
+    "logo": "https://24herbata.pl/logo.png",
+    "description": "Internetowy sklep z herbatą i kawą. Oferowaliśmy herbatę czarną, zieloną, białą, czerwoną, rooibos, yerba mate, pu-erh, kawę aromatyzowaną oraz akcesoria i upominki.",
+    "foundingDate": "2008",
+    "dissolutionDate": "2025",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "mateusz@24herbata.pl",
+      "contactType": "customer service",
+      "availableLanguage": "Polish"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans', sans-serif;
+      background-color: #f6f6f6;
+      color: #232323;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      background: #fff;
+      border-bottom: 3px solid #faae07;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    header img {
+      height: 64px;
+      width: auto;
+    }
+
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 720px;
+      padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      text-align: center;
+    }
+
+    .cup {
+      font-size: 4rem;
+      line-height: 1;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #232323;
+      line-height: 1.3;
+    }
+
+    .divider {
+      width: 60px;
+      height: 4px;
+      background: #faae07;
+      border-radius: 2px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: #555;
+      max-width: 580px;
+    }
+
+    p strong {
+      color: #232323;
+    }
+
+    /* Categories grid */
+    .categories {
+      width: 100%;
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.75rem 2rem;
+      text-align: left;
+      border: 1px solid #e8e8e8;
+    }
+
+    .categories h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #7a7a7a;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.25rem;
+      text-align: center;
+    }
+
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+      gap: 0.6rem 1rem;
+      list-style: none;
+    }
+
+    .cat-grid li {
+      font-size: 0.95rem;
+      color: #444;
+      padding-left: 1.1rem;
+      position: relative;
+    }
+
+    .cat-grid li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 6px;
+      height: 6px;
+      background: #faae07;
+      border-radius: 50%;
+    }
+
+    /* Sale box */
+    .sale-box {
+      background: #fff;
+      border: 2px solid #faae07;
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      width: 100%;
+    }
+
+    .sale-box h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #232323;
+      margin-bottom: 0.75rem;
+    }
+
+    .sale-box p {
+      font-size: 0.98rem;
+      margin-bottom: 1rem;
+    }
+
+    .sale-box a.btn {
+      display: inline-block;
+      background: #faae07;
+      color: #232323;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      padding: 0.6rem 1.4rem;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+
+    .sale-box a.btn:hover {
+      background: #e09c00;
+    }
+
+    footer {
+      width: 100%;
+      padding: 1.25rem 2rem;
+      text-align: center;
+      font-size: 0.82rem;
+      color: #a9a8a8;
+      border-top: 1px solid #ddd;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="/">
+      <img src="logo.png" alt="24Herbata.pl – sklep z herbatą i kawą">
+    </a>
+  </header>
+
+  <main>
+    <div class="cup" aria-hidden="true">🍵</div>
+
+    <h1>Sklep 24Herbata.pl<br>zakończył działalność</h1>
+
+    <div class="divider"></div>
+
+    <p>
+      Po latach wspólnego parzenia i odkrywania smaków herbaty — czas zamknąć ten rozdział.
+      <strong>Serdecznie dziękujemy wszystkim klientom</strong> za lata zaufania, zamówień
+      i ciepłych słów. To był prawdziwy zaszczyt dzielić z Wami pasję do dobrej herbaty i kawy.
+    </p>
+
+    <p>
+      Sklep nie przyjmuje już zamówień. Mamy nadzieję, że wspomnienia zaparzonych filiżanek
+      pozostaną z Wami na długo.
+    </p>
+
+    <section class="categories" aria-label="Oferta sklepu">
+      <h2>Co oferowaliśmy przez lata</h2>
+      <ul class="cat-grid">
+        <li>Herbata czarna</li>
+        <li>Herbata zielona</li>
+        <li>Herbata biała</li>
+        <li>Herbata czerwona</li>
+        <li>Herbata oolong</li>
+        <li>Pu-erh</li>
+        <li>Rooibos</li>
+        <li>Yerba mate</li>
+        <li>Lapacho</li>
+        <li>Herbata z dodatkami</li>
+        <li>Herbatki owocowe</li>
+        <li>Kawa ziarnista</li>
+        <li>Kawa aromatyzowana</li>
+        <li>Kawa mielona</li>
+        <li>Akcesoria do herbaty</li>
+        <li>Prezenty i upominki</li>
+      </ul>
+    </section>
+
+    <div class="sale-box">
+      <h2>Domena na sprzedaż</h2>
+      <p>
+        Domena <strong>24herbata.pl</strong> jest dostępna do nabycia —
+        ugruntowana marka w niszy herbaty i kawy, z wieloletnią historią w wyszukiwarkach.
+        Jeśli jesteś zainteresowany, napisz do nas.
+      </p>
+      <a class="btn" href="mailto:mateusz@24herbata.pl">mateusz@24herbata.pl</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2008–2025 24Herbata.pl &mdash; Dziękujemy za wszystkie wspólne filiżanki.
+  </footer>
+
+</body>
+</html>
